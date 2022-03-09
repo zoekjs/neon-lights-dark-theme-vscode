@@ -1,0 +1,30 @@
+{
+  "name": "neon-lights-dark",
+  "displayName": "Neon Lights Dark",
+  "description": "2077 inspired theme",
+  "author": {
+    "name": "zoekjs",
+    "email": "zoekjs@outlook.com"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Lights Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Neon Lights Dark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/zoekjs/neon-lights-dark-theme-vs.git",
+    "type": "git"
+  },
+  "publisher": "zoekjs"
+}
