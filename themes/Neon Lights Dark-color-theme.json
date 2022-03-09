@@ -91,9 +91,11 @@
         "variable.other.object.js",
         "variable.other.object.ts",
         "variable.other.object.jsx",
-        "variable.other.object.tsx",
+        "variable.other.readwrite.alias.tsx",
         "variable.object.property.js",
-        "variable.object.property.jsx"
+        "variable.object.property.jsx",
+        "variable.object.property.js.jsx",
+        "variable.other.object.tsx"
       ],
       "settings": {
         "foreground": "#ff9700"
@@ -386,8 +388,14 @@
       }
     },
     {
-      "name": "TYPESCRIPT Keyword",
-      "scope": "source.ts keyword",
+      "name": "TYPESCRIPT TSX and JSX Keyword",
+      "scope": [
+        "source.ts keyword",
+        "source.tsx keyword",
+        "meta.jsx.children.tsx",
+        "meta.jsx.children.js.jsx",
+        "constant.language.boolean"
+      ],
       "settings": {
         "foreground": "#d9ff00"
       }
@@ -481,6 +489,13 @@
       "scope": "text.html.vue-html",
       "settings": {
         "foreground": "#ffd400"
+      }
+    },
+    {
+      "name": "TSX double quoted string",
+      "scope": "source.ts keyword",
+      "settings": {
+        "foreground": "#d9ff00"
       }
     },
     {
@@ -610,7 +625,7 @@
       "name": "GitGutter inserted",
       "scope": "markup.inserted.git_gutter",
       "settings": {
-        "foreground": "#ffd400"
+        "foreground": "#33ff00"
       }
     },
     {
