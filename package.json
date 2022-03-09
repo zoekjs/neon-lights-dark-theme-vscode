@@ -1,14 +1,15 @@
 {
   "name": "neon-lights-dark",
   "displayName": "Neon Lights Dark",
-  "description": "2077 inspired theme",
+  "description": "Neon Colors Theme optimized for js, ts and tsx",
+  "license": "MIT License",
   "author": {
     "name": "zoekjs",
     "email": "zoekjs@outlook.com"
   },
-  "version": "0.0.2",
+  "version": "0.0.1",
   "engines": {
-    "vscode": "^1.65.0"
+    "vscode": "^1.64.0"
   },
   "categories": [
     "Themes"
@@ -27,7 +28,15 @@
     "type": "git"
   },
   "publisher": "zoekjs",
+  "scripts": {
+    "release": "standard-version"
+  },
   "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.5",
     "standard-version": "^9.3.2"
-  }
+  },
+  "dependencies": {}
 }
