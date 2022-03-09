@@ -1,8 +1,13 @@
-# Change Log
+# Changelog
 
-All notable changes to the "neon-lights-dark" extension will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### 0.0.2 (2022-03-09)
+
+
+### Bug Fixes
+
+* change repository URL ([32fd0e9](https://github.com/zoekjs/neon-lights-dark-theme-vscode/commit/32fd0e9be302ea43a00daac2675d85b0e86bf006))
 
 ## [0.0.1]
 
