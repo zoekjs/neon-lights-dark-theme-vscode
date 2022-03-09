@@ -6,7 +6,7 @@
     "name": "zoekjs",
     "email": "zoekjs@outlook.com"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -26,5 +26,8 @@
     "url": "https://github.com/zoekjs/neon-lights-dark-theme-vscode.git",
     "type": "git"
   },
-  "publisher": "zoekjs"
+  "publisher": "zoekjs",
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
 }
