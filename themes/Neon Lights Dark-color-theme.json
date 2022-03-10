@@ -5,23 +5,36 @@
     "titleBar.activeBackground": "#0b082e",
     "editor.background": "#060020",
     "editor.foreground": "#48c7c7",
-    "activityBarBadge.background": "#ff9700",
-    "sideBarTitle.foreground": "#ffd300",
+    "activityBarBadge.background": "#d9ff00",
+    "activityBarBadge.foreground": "#0b082e",
+    "sideBarTitle.foreground": "#d9ff00",
     "sideBar.background": "#060020",
     "sideBarSectionHeader.background": "#090031",
     "sideBarSectionHeader.foreground": "#090031",
-    "activityBar.foreground": "#ff9700",
+    "activityBar.foreground": "#d9ff00",
     "activityBar.background": "#060020",
     "editorGroupHeader.tabsBackground": "#060020",
     "editorGroup.border": "#ff9700",
     "tab.inactiveBackground": "#060020",
     "tab.activeBackground": "#0c0042",
     "tab.inactiveForeground": "#00a0df",
-    "tab.activeBorder": "#ffd300",
-    "tab.activeForeground": "#ffd300",
-    "tab.unfocusedActiveForeground": "#ff0000",
+    "tab.activeBorder": "#d9ff00",
+    "tab.activeForeground": "#ffff",
+    "tab.unfocusedActiveForeground": "#d9ff00",
     "menu.background": "#ff0000",
-    "input.background": "#0c0042"
+
+    //input
+    "input.background": "#0d0931",
+    "input.placeholderForeground": "#d9ff00",
+    "input.border": "#150f53",
+    "inputOption.activeBorder": "#ffd400",
+
+    "editorWidget.background": "#0c0042",
+    "editorWidget.foreground": "#d9ff00",
+    "editor.findMatchBackground": "#ff9700",
+    "editor.findMatchHighlightBackground": "#001288da",
+    "editorCursor.foreground": "#ee0077",
+    "dropdown.background": "#0c0042"
   },
   "tokenColors": [
     {
@@ -91,9 +104,11 @@
         "variable.other.object.js",
         "variable.other.object.ts",
         "variable.other.object.jsx",
-        "variable.other.object.tsx",
+        "variable.other.readwrite.alias.tsx",
         "variable.object.property.js",
-        "variable.object.property.jsx"
+        "variable.object.property.jsx",
+        "variable.object.property.js.jsx",
+        "variable.other.object.tsx"
       ],
       "settings": {
         "foreground": "#ff9700"
@@ -386,8 +401,14 @@
       }
     },
     {
-      "name": "TYPESCRIPT Keyword",
-      "scope": "source.ts keyword",
+      "name": "TYPESCRIPT TSX and JSX Keyword",
+      "scope": [
+        "source.ts keyword",
+        "source.tsx keyword",
+        "meta.jsx.children.tsx",
+        "meta.jsx.children.js.jsx",
+        "constant.language.boolean"
+      ],
       "settings": {
         "foreground": "#d9ff00"
       }
@@ -481,6 +502,13 @@
       "scope": "text.html.vue-html",
       "settings": {
         "foreground": "#ffd400"
+      }
+    },
+    {
+      "name": "TSX double quoted string",
+      "scope": "source.ts keyword",
+      "settings": {
+        "foreground": "#d9ff00"
       }
     },
     {
@@ -603,14 +631,14 @@
       "name": "GitGutter deleted",
       "scope": "markup.deleted.git_gutter",
       "settings": {
-        "foreground": "#e700d8"
+        "foreground": "#e74900"
       }
     },
     {
       "name": "GitGutter inserted",
       "scope": "markup.inserted.git_gutter",
       "settings": {
-        "foreground": "#ffd400"
+        "foreground": "#33ff00"
       }
     },
     {
