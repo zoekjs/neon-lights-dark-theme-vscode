@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/zoekjs/neon-lights-dark-theme-vscode/compare/v0.0.3...v0.0.4) (2023-11-02)
+
+
+### Features
+
+* add husky, commitlint and standard-version to control changes ([#1](https://github.com/zoekjs/neon-lights-dark-theme-vscode/issues/1)) ([9add7e9](https://github.com/zoekjs/neon-lights-dark-theme-vscode/commit/9add7e9d7fa83d8c5ff5ef491b3db7f1729bb1f1))
+
 ### [0.0.3](https://github.com/zoekjs/neon-lights-dark-theme-vscode/compare/v0.0.2...v0.0.3) (2022-03-10)
 
 
