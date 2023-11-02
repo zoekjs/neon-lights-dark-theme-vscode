@@ -2,13 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+
 ### [0.0.4](https://github.com/zoekjs/neon-lights-dark-theme-vscode/compare/v0.0.3...v0.0.4) (2023-11-02)
 
 
 ### Features
 
 * add color improvements to python language ([26c5896](https://github.com/zoekjs/neon-lights-dark-theme-vscode/pull/4/commits/26c58968fef26e5b3106f4e4aa4d5737eaf12b73))
-
 
 ### [0.0.3](https://github.com/zoekjs/neon-lights-dark-theme-vscode/compare/v0.0.2...v0.0.3) (2022-03-10)
 
