@@ -2,7 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-
 ### [0.0.6](https://github.com/zoekjs/neon-lights-dark-theme-vscode/compare/v0.0.3...v0.0.6) (2023-11-02)
 
 ### Bug Fixes
@@ -13,7 +12,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Bug Fixes
 
-- add correct backtick colors to python language ([#6](https://github.com/zoekjs/neon-lights-dark-theme-vscode/issues/6)) ([07f3475](https://github.com/zoekjs/neon-lights-dark-theme-vscode/commit/07f3475ed444055955132d4ba8622dacf2115157)), closes [#3](https://github.com/zoekjs/neon-lights-dark-theme-vscode/issues/3) [#5](https://github.com/zoekjs/neon-lights-dark-theme-vscode/issues/5) [#4](https://github.com/zoekjs/neon-lights-dark-theme-vscode/issues/4) [#3](https://github.com/zoekjs/neon-lights-dark-theme-vscode/issues/3)
+- add correct backtick colors to python language ([07f3475](https://github.com/zoekjs/neon-lights-dark-theme-vscode/commit/07f3475ed444055955132d4ba8622dacf2115157))
 
 ### [0.0.4](https://github.com/zoekjs/neon-lights-dark-theme-vscode/compare/v0.0.3...v0.0.4) (2023-11-02)
 
