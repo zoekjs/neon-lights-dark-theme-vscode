@@ -4,7 +4,7 @@
   "colors": {
     "titleBar.activeBackground": "#0b082e",
     "editor.background": "#060020",
-    "editor.foreground": "#48c7c7",
+    "editor.foreground": "#00e1ff",
     "activityBarBadge.background": "#d9ff00",
     "activityBarBadge.foreground": "#0b082e",
     "sideBarTitle.foreground": "#d9ff00",
@@ -41,8 +41,8 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic strikethrough",
-        "foreground": "#546E7A"
+        "fontStyle": "italic",
+        "foreground": "#0f6491"
       }
     },
     {
@@ -390,12 +390,23 @@
       "name": "PYTHON Self Argument",
       "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
-        "foreground": "#ff2e97"
+        "foreground": "#d9ff00"
       }
     },
     {
-      "name": "TYPESCRIPT Entity Name Type",
-      "scope": "source.ts entity.name.type",
+      "name": "string",
+      "scope": ["string", "punctuation.definition.arguments.begin.python"],
+      "settings": {
+        "foreground": "#d9ff00"
+      }
+    },
+    {
+      "name": "Entity Name Type",
+      "scope": [
+        "source.ts entity.name.type",
+        "meta.function-call.generic.python",
+        "entity.name.type.class.python"
+      ],
       "settings": {
         "foreground": "#dbcd00"
       }
@@ -429,7 +440,7 @@
     },
     {
       "name": "TYPESCRIPT Punctuation Arrow Parameters",
-      "scope": "meta.arrow.ts punctuation.definition.parameters",
+      "scope": "punctuation.definition.parameters",
       "settings": {
         "foreground": "#ffee80"
       }
