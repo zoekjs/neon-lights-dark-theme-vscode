@@ -395,7 +395,11 @@
     },
     {
       "name": "string",
-      "scope": ["string", "punctuation.definition.arguments.begin.python"],
+      "scope": [
+        "string",
+        "punctuation.definition.arguments.begin.python",
+        "invalid.deprecated.backtick.python"
+      ],
       "settings": {
         "foreground": "#d9ff00"
       }
