@@ -7,7 +7,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* add husky, commitlint and standard-version to control changes ([#1](https://github.com/zoekjs/neon-lights-dark-theme-vscode/issues/1)) ([9add7e9](https://github.com/zoekjs/neon-lights-dark-theme-vscode/commit/9add7e9d7fa83d8c5ff5ef491b3db7f1729bb1f1))
+* add color improvements to python language ([26c5896](https://github.com/zoekjs/neon-lights-dark-theme-vscode/pull/4/commits/26c58968fef26e5b3106f4e4aa4d5737eaf12b73))
+
 
 ### [0.0.3](https://github.com/zoekjs/neon-lights-dark-theme-vscode/compare/v0.0.2...v0.0.3) (2022-03-10)
 
