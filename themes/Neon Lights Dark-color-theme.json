@@ -129,6 +129,13 @@
       }
     },
     {
+      "name": "imports",
+      "scope": "source.ts meta.import.ts keyword",
+      "settings": {
+        "foreground": "#00f2ff"
+      }
+    },
+    {
       "name": "Class name",
       "scope": ["entity.name.class", "entity.name.type.class"],
       "settings": {
@@ -394,6 +401,13 @@
       }
     },
     {
+      "name": "Python class attribute",
+      "scope": "entity.name.type.class.python",
+      "settings": {
+        "foreground": "#ff9700"
+      }
+    },
+    {
       "name": "string",
       "scope": [
         "string",
@@ -408,8 +422,7 @@
       "name": "Entity Name Type",
       "scope": [
         "source.ts entity.name.type",
-        "meta.function-call.generic.python",
-        "entity.name.type.class.python"
+        "meta.function-call.generic.python"
       ],
       "settings": {
         "foreground": "#dbcd00"
